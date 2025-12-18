@@ -6,7 +6,7 @@ import jakarta.validation.constraints.*;
 @Entity
 public class studententity{
 
-    @Id 
+    @Id  
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
