@@ -12,4 +12,4 @@ public class studentServiceimpl implements studentService{
     public List<studentEntity>getAll(){
         return repo.findAll();
     }
-}
+} 
