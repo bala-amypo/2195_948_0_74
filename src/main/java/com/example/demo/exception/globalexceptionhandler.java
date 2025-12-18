@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, String>> handleFieldError(
             MethodArgumentNotValidException ex) {
-
+11
         Map<String, String> error = new HashMap<>();
 
         ex.getBindingResult().getFieldErrors()
